@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{% if page.title %}{{ page.title }} &dash; {% endif %} {{ site.title }}</title>
+
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{ site.description }}">
+    <meta name="keywords" content="{{ Site.keywords }}">
+    <meta name='author' content='BlinkTrade'>
+    <meta name='revisit-after' content='5 days'>
+
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="{{ site.url }}{{ site.baseurl }}/assets/img/favicon.ico">
+
+    <!-- Feed -->
+    <link rel="alternate" type="application/rss+xml" href="{{ site.url }}{{ site.baseurl }}/feed.xml">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Fonts -->
+    <link href='//fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Montserrat:700,400' rel='stylesheet' type='text/css'>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="{{ site.url }}{{ site.baseurl }}/assets/css/blinktrade.css" media="all" />
+</head>
+<body>
+
+    <!-- .head -->
+    <header class="head head--inner">
+        <!-- .wrapper -->
+        <div class="wrapper">
+            <!-- .layout -->
+            <div class="layout">
+                <!-- .layout__item -->
+                <div class="layout__item one-whole desk--one-half">
+                    <!-- .logo -->
+                    <a class="logo" href="{{ site.url }}{{ site.baseurl }}" title="Research UAV">
+                      <img src="{{ site.url }}{{ siite.baseurl }}/assets/img/blinktrade.png" alt="Research UAV" />
+                    </a>
+                    <!-- /.logo -->
+                </div>
+                <!-- /.layout__item -->
+
+                <!-- .layout__item -->
+                <nav class="layout__item one-whole desk--one-half cf">
+                    {% include nav.html %}
+                </nav>
+                <!-- /.layout__item -->
+            </div>
+            <!-- /.layout -->
+        </div>
+        <!-- /.wrapper -->
+    </header>
+    <!-- /.head -->

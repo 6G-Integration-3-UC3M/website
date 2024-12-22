@@ -1,0 +1,21 @@
+# Site settings
+title: 'BlinkTrade'
+email: contact@blinktrade.com
+description: "BlinkTrade - The Blockchain Financial Network For The Masses"
+keywords: "BlinkTrade, Bitcoin, Exchange, Open Source"
+baseurl: ""
+url: "https://blinktrade.com"
+
+# Build settings
+markdown: kramdown
+
+source: .
+destination: ./_site
+paginate: 5
+paginate_path: "blog/page:num"
+
+permalink: /:title/
+
+sass:
+  sass_dir: assets/sass
+  style: :compressed
