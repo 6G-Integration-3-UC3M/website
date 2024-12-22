@@ -1,10 +1,10 @@
 # Site settings
-title: 'BlinkTrade'
-email: contact@blinktrade.com
-description: "BlinkTrade - The Blockchain Financial Network For The Masses"
-keywords: "BlinkTrade, Bitcoin, Exchange, Open Source"
+title: 'Research UAV'
+email: contact@reserachuav.com
+description: "Research UAV - Building the Future with Drones"
+keywords: "Research UAV, Drones, Machine Learning, Future"
 baseurl: ""
-url: "https://blinktrade.com"
+url: "https://reserachuav.com"
 
 # Build settings
 markdown: kramdown
