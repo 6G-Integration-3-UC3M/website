@@ -3,8 +3,8 @@ title: 'Research UAV'
 email: contact@researchuav.com
 description: "Research UAV - Building the Future with Drones"
 keywords: "Research UAV, Drones, Machine Learning, Future"
-baseurl: ""
-# url: "https://researchuav.com"
+baseurl: "/website"
+url: "https://6g-integration-3-uc3m.github.io"
 
 # Build settings
 markdown: kramdown
