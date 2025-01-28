@@ -4,7 +4,7 @@ email: contact@researchuav.tech
 description: "Research UAV - Building the Future with Drones"
 keywords: "Research UAV, Drones, Machine Learning, Future"
 baseurl: ""
-url: "https://reserachuav.tech"
+url: "https://researchuav.tech"
 
 # Build settings
 markdown: kramdown
