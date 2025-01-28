@@ -1,10 +1,10 @@
 # Site settings
 title: 'Research UAV'
-email: contact@researchuav.com
+email: contact@researchuav.tech
 description: "Research UAV - Building the Future with Drones"
 keywords: "Research UAV, Drones, Machine Learning, Future"
-baseurl: "/"
-url: "https://6g-integration-3-uc3m.github.io"
+baseurl: ""
+url: "https://reserachuav.tech"
 
 # Build settings
 markdown: kramdown
